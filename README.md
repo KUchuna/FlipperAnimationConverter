@@ -17,7 +17,7 @@ A fully automated Python pipeline that converts standard GIF animations into Fli
 1.  **Python 3.x** installed.
 2.  **img2fbm executable:**
     * This script requires the `img2fbm` tool to handle the final conversion to Flipper format.
-    * Download `img2fbm-win-x86_64.exe` (or your OS equivalent) from the [img2fbm repository](https://github.com/atomofiron/img2fbm).
+    * Download `img2fbm.exe` (or your OS equivalent) from the [img2fbm repository](https://github.com/atomofiron/img2fbm).
     * **Place the `.exe` in the same folder as this script.**
 
 ## 📦 Installation
@@ -31,7 +31,7 @@ A fully automated Python pipeline that converts standard GIF animations into Fli
     ```text
     /Project_Folder
     ├── script.py
-    ├── img2fbm-win-x86_64.exe
+    ├── img2fbm.exe
     ├── Input/          <-- Put your GIFs here
     └── Output/         <-- Results will appear here
     ```
@@ -41,4 +41,5 @@ A fully automated Python pipeline that converts standard GIF animations into Fli
 ### Batch Mode (Recommended)
 To convert an entire folder of GIFs at once:
 ```bash
+
 python script.py ".\Output" ".\Input"
